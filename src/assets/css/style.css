@@ -1,0 +1,10 @@
+/* login css start */
+.login_img {
+    margin-top: 10px;
+}
+.login_bg{
+    background-color:darkkhaki;
+    height: 470px;
+    border-radius: 25px;
+    border-top: 2px;
+}

@@ -1,0 +1,28 @@
+   <div class="container">
+    <!-- <h3 class="text-primary mt-3 text-center">Welcome to Hirecraft Version5 <br>Employee Management System</h3> -->
+    <nav class="navbar navbar-expand-lg" id="mainNav">
+          <a class="navbar-brand text-uppercase">Hirecraft</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="emphome">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="emp/leave">leave_request</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="emp/chngpwd">Chaneg_password</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="logout">Logout</a>
+                </li>
+          </ul>
+        </div>
+    </nav>
+     <router-outlet></router-outlet>
+    </div>    
